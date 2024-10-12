@@ -5,8 +5,23 @@ services:
     image: nginx:latest
     restart: always
     container_name: nginx_container
+    ports:
+      - "80:80"
     volumes:
-      - ./nginx_proxy_for_wordpress.conf:/etc/nginx/nginx.conf
+      - ./nginx_webserver_for_wordpress.conf:/etc/nginx/nginx.conf
+      - ./wordpress_data:/var/www/html
+    depends_on:
+      - wordpress
+    networks:
+      - internal_network
+      - external_network
+
+  php-fpm:
+    image: php:8-fpm
+    container_name: php_fpm_container
+    restart: always
+    volumes:
+      - ./wordpress_data:/var/www/html
     networks:
       - internal_network
 
@@ -40,18 +55,6 @@ services:
     volumes:
       - ./mariadb_data:/var/lib/mysql
 
-  cloudflare-tunnel:
-    image: cloudflare/cloudflared:latest
-    restart: unless-stopped
-    container_name: cloduflare_tunnel_container
-    volumes:
-      - ./cloudflare_configuration_files:/etc/cloudflare
-    networks:
-      - internal_network
-    command: tunnel --no-autoupdate run
-    env_file:
-      - cloudflare_token.env
-
 volumes:
   wordpress_data:
   mariadb_data:
@@ -59,3 +62,5 @@ volumes:
 networks:
   internal_network:
     driver: bridge
+  external_network:
+    external: true
