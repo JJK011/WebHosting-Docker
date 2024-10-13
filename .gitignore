@@ -1,6 +1,6 @@
 #environment variables
 *.env
 #data storage volumes of docker containers
-wordpress_data/
-mariadb_data/
-cloudflare_configuration_files/
+wordpress/
+mariadb/
+cloudflare/

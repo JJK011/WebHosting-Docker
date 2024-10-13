@@ -8,19 +8,20 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./nginx_webserver_for_wordpress.conf:/etc/nginx/nginx.conf
-      - ./wordpress_data:/var/www/html
+      - ./nginx/nginx_webserver_for_wordpress.conf:/etc/nginx/nginx.conf
+      - ./wordpress/wordpress_data:/var/www/html
     depends_on:
       - wordpress
     networks:
       - internal_network
 
   php-fpm:
-    image: php:8-fpm
+    build:
+      context: ./php-fpm #build from php-fpm directory where dockerfile is located, used instead of image: php:8-fpm, to avoid sqli error
     container_name: php_fpm_container
     restart: always
     volumes:
-      - ./wordpress_data:/var/www/html
+      - ./wordpress/wordpress_data:/var/www/html
     networks:
       - internal_network
 
@@ -36,7 +37,7 @@ services:
       WORDPRESS_DB_PASSWORD: wp_password
       WORDPRESS_DB_NAME: wp_db
     volumes:
-      - ./wordpress_data:/var/www/html
+      - ./wordpress/wordpress_data:/var/www/html
     depends_on:
       - mariadb
 
@@ -52,23 +53,19 @@ services:
       MYSQL_USER: wp_user
       MYSQL_PASSWORD: wp_password
     volumes:
-      - ./mariadb_data:/var/lib/mysql
+      - ./mariadb/mariadb_data:/var/lib/mysql
 
   cloudflare-tunnel:
     image: cloudflare/cloudflared:latest
     restart: unless-stopped
     container_name: cloduflare_tunnel_container
     volumes:
-      - ./cloudflare_configuration_files:/etc/cloudflare
+      - ./cloudflare/cloudflare_configuration_files:/etc/cloudflare
     networks:
       - internal_network
     command: tunnel --no-autoupdate run
     env_file:
-      - cloudflare_token.env
-
-volumes:
-  wordpress_data:
-  mariadb_data:
+      - ./cloudflare/cloudflare_token.env
 
 networks:
   internal_network:
