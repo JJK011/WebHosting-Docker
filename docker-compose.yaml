@@ -8,20 +8,9 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./nginx/nginx_webserver_for_wordpress.conf:/etc/nginx/nginx.conf
-      - ./wordpress/wordpress_data:/var/www/html
+      - ./nginx/nginx_proxy_for_wordpress.conf:/etc/nginx/nginx.conf
     depends_on:
       - wordpress
-    networks:
-      - internal_network
-
-  php-fpm:
-    build:
-      context: ./php-fpm #build from php-fpm directory where dockerfile is located, used instead of image: php:8-fpm, to avoid sqli error
-    container_name: php_fpm_container
-    restart: always
-    volumes:
-      - ./wordpress/wordpress_data:/var/www/html
     networks:
       - internal_network
 
@@ -33,9 +22,9 @@ services:
       - internal_network
     environment:
       WORDPRESS_DB_HOST: mariadb:3306
-      WORDPRESS_DB_USER: wp_user
-      WORDPRESS_DB_PASSWORD: wp_password
-      WORDPRESS_DB_NAME: wp_db
+      WORDPRESS_DB_USER: newuser
+      WORDPRESS_DB_PASSWORD: newpassword
+      WORDPRESS_DB_NAME: newdb
     volumes:
       - ./wordpress/wordpress_data:/var/www/html
     depends_on:
@@ -49,9 +38,9 @@ services:
       - internal_network
     environment:
       MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: wp_db
-      MYSQL_USER: wp_user
-      MYSQL_PASSWORD: wp_password
+      MYSQL_DATABASE: newdb
+      MYSQL_USER: newuser
+      MYSQL_PASSWORD: newpassword
     volumes:
       - ./mariadb/mariadb_data:/var/lib/mysql
 
