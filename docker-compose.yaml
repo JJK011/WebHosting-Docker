@@ -8,41 +8,10 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./nginx/nginx_proxy_for_wordpress.conf:/etc/nginx/nginx.conf
-    depends_on:
-      - wordpress
+      - ./SampleWebsite-main:/usr/share/nginx/html
+      - ./nginx/nginx_server.conf:/etc/nginx/nginx.conf
     networks:
       - internal_network
-
-  wordpress:
-    image: wordpress:latest
-    restart: always
-    container_name: wordpress_container
-    networks:
-      - internal_network
-    environment:
-      WORDPRESS_DB_HOST: mariadb:3306
-      WORDPRESS_DB_USER: newuser
-      WORDPRESS_DB_PASSWORD: newpassword
-      WORDPRESS_DB_NAME: newdb
-    volumes:
-      - ./wordpress/wordpress_data:/var/www/html
-    depends_on:
-      - mariadb
-
-  mariadb:
-    image: mariadb:latest
-    restart: always
-    container_name: mariadb_container
-    networks:
-      - internal_network
-    environment:
-      MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: newdb
-      MYSQL_USER: newuser
-      MYSQL_PASSWORD: newpassword
-    volumes:
-      - ./mariadb/mariadb_data:/var/lib/mysql
 
   cloudflare-tunnel:
     image: cloudflare/cloudflared:latest
