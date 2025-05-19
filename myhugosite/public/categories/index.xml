@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Mostafa Hugo Theme</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Mostafa Hugo Theme</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 25 Jul 2024 13:16:19 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample</title>
+      <link>http://localhost:1313/categories/sample/</link>
+      <pubDate>Thu, 25 Jul 2024 13:16:19 +0200</pubDate>
+      <guid>http://localhost:1313/categories/sample/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>http://localhost:1313/categories/themes/</link>
+      <pubDate>Tue, 25 Jun 2024 13:16:19 +0200</pubDate>
+      <guid>http://localhost:1313/categories/themes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/categories/test/</link>
+      <pubDate>Sun, 25 Feb 2024 13:16:19 +0200</pubDate>
+      <guid>http://localhost:1313/categories/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>http://localhost:1313/categories/tutorials/</link>
+      <pubDate>Thu, 01 Dec 2022 09:31:27 +0100</pubDate>
+      <guid>http://localhost:1313/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Category</title>
+      <link>http://localhost:1313/categories/sample-category/</link>
+      <pubDate>Sat, 01 Oct 2022 16:23:40 +0100</pubDate>
+      <guid>http://localhost:1313/categories/sample-category/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>http://localhost:1313/categories/video/</link>
+      <pubDate>Sat, 01 Oct 2022 16:23:40 +0100</pubDate>
+      <guid>http://localhost:1313/categories/video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/categories/about/</link>
+      <pubDate>Wed, 15 Dec 2021 10:45:44 +0200</pubDate>
+      <guid>http://localhost:1313/categories/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Link</title>
+      <link>http://localhost:1313/categories/link/</link>
+      <pubDate>Mon, 01 Nov 2021 13:05:27 +0100</pubDate>
+      <guid>http://localhost:1313/categories/link/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
