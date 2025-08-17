@@ -1,9 +1,9 @@
 #to update hugo template: hugo mod tidy
 #if blog site doesnt work: try to update everything... hugo, linux, hugo theme etc
-
-baseURL = 'https://example.org/'
+#my future base url is jijeshjayakumar.in
+baseURL = 'https://blogs.spacetechandnature.site/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Jijesh Jayakumar'
 
 # Change to one of your content languages defined at the end.
 DefaultContentLanguage = "en"
@@ -38,8 +38,8 @@ weight = 10
   url = "/categories/about/"
   weight = 40
 #[[menus.main]]
-#  name = "Mostafa"
-#  url = "https://mirmousavi.com/"
+#  name = "JJK"
+#  url = "https://blogs.spacetechandnature.site/"
 #  weight = 50
 #  [menus.main.params]
 #    external = true
@@ -54,10 +54,10 @@ weight = 10
     js_modules = []
 
     # Description and meta data for the search engines
-    author = "Mostafa Mirmousavi"
-    description = "Software Engineer"
+    author = "Jijesh Jayakumar"
+    description = "Electrical Engineer"
     keywords = "javascript, typescript, react, nodejs, monkeyc"
-    subtitle = "A software engineer"
+    subtitle = "An Electrical engineer"
 
     # Show subtitle in the header
     showSubtitle = true
@@ -181,15 +181,15 @@ weight = 10
         languageCode = 'en-US'
         languageDirection = 'ltr'
         languageName = 'English'
-        title = "Mostafa Hugo Theme"
+        title = "Jijesh Jayakumar"
         [Languages.en.params]
-            subtitle = "Theme Demo"
+            subtitle = "Home"
     [Languages.de]
         weight = 20
         languageCode = 'de-DE'
         languageDirection = 'ltr'
         languageName = 'German'
-        title = "Mostafa Hugo Theme"
+        title = "Jijesh Jayakumar"
         [Languages.de.params]
             subtitle = "Theme Demo"
     [Languages.nl]
@@ -197,7 +197,7 @@ weight = 10
         languageCode = 'nl-NL'
         languageDirection = 'ltr'
         languageName = 'Dutch'
-        title = "Mostafa Hugo Theme"
+        title = "Jijesh Jayakumar"
         [Languages.nl.params]
             subtitle = "Theme Demo"
     [Languages.fa]

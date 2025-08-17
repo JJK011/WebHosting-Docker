@@ -8,7 +8,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./SampleWebsite-main:/usr/share/nginx/html
+      - ./public:/usr/share/nginx/html
       - ./nginx/nginx_server.conf:/etc/nginx/nginx.conf
     networks:
       - internal_network

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on Mostafa Hugo Theme</title>
+    <title>Articles on Jijesh Jayakumar</title>
     <link>http://localhost:1313/article/</link>
-    <description>Recent content in Articles on Mostafa Hugo Theme</description>
+    <description>Recent content in Articles on Jijesh Jayakumar</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jul 2024 13:16:19 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 16 Aug 2025 13:16:19 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Space Isn&#39;t Just for Scientists-It&#39;s for You Too!</title>
+      <link>http://localhost:1313/article/introducing-theme/</link>
+      <pubDate>Sat, 16 Aug 2025 13:16:19 +0200</pubDate>
+      <guid>http://localhost:1313/article/introducing-theme/</guid>
+      <description>&lt;p&gt;About 4.5 billion years ago, the planets of our solar system, including Earth, were formed. Life began about 3.5 billion years ago. But was the origin of life something that happened deep within Earth itself, or did a comet or asteroid carrying the seeds of life crash onto Earth by chance? That still remains a mystery.&lt;/p&gt;&#xA;&lt;p&gt;Human evolution began roughly 5 million years ago, but it took nearly 4.9 million years after that before the first real human settlements appeared. Those early hunters gradually became aware of their surroundings, learning how to use the environment for their development. Over time, they became farmers, engineers, artists, astronomers—everything they were capable of becoming.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Theme features</title>
       <link>http://localhost:1313/article/theme-features/</link>
       <pubDate>Thu, 25 Jul 2024 13:16:19 +0200</pubDate>
       <guid>http://localhost:1313/article/theme-features/</guid>
       <description>&lt;p&gt;This article showcases the features of the Mostafa Hugo Theme. The theme supports multiple languages, various content types, and integrates seamlessly with social media platforms.&lt;/p&gt;&#xA;&lt;p&gt;Key features of the Mostafa Hugo Theme:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Responsive design&lt;/strong&gt;: Adapts seamlessly to different screen sizes and devices.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Supports various content types&lt;/strong&gt;: Compatible with posts, pages, galleries, videos, and more.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multilingual support&lt;/strong&gt;: Easily create content in multiple languages.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dark and modern theme&lt;/strong&gt;: Sleek and contemporary design with dark mode support.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Integrated with social media&lt;/strong&gt;: Easily link and share content on social media platforms.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customizable Layouts&lt;/strong&gt;: Flexible layout options to suit your needs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For more information, visit the &lt;a href=&#34;https://github.com/mirmousaviii/mostafa-hugo-theme&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Introducing the theme</title>
-      <link>http://localhost:1313/article/introducing-theme/</link>
-      <pubDate>Tue, 25 Jun 2024 13:16:19 +0200</pubDate>
-      <guid>http://localhost:1313/article/introducing-theme/</guid>
-      <description>&lt;p&gt;This article showcases the features of the Mostafa Hugo Theme. It serves as an example to demonstrate the structure and format of an article page using this theme.&lt;/p&gt;&#xA;&lt;p&gt;This article is only available in &lt;code&gt;English&lt;/code&gt; version just for test.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

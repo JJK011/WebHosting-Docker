@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demo on Mostafa Hugo Theme</title><link>https://blogs.spacetechandnature.site/tags/demo/</link><description>Recent content in Demo on Mostafa Hugo Theme</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 25 Jul 2024 13:16:19 +0200</lastBuildDate><atom:link href="https://blogs.spacetechandnature.site/tags/demo/index.xml" rel="self" type="application/rss+xml"/><item><title>Theme features</title><link>https://blogs.spacetechandnature.site/article/theme-features/</link><pubDate>Thu, 25 Jul 2024 13:16:19 +0200</pubDate><guid>https://blogs.spacetechandnature.site/article/theme-features/</guid><description>&lt;p>This article showcases the features of the Mostafa Hugo Theme. The theme supports multiple languages, various content types, and integrates seamlessly with social media platforms.&lt;/p>
+&lt;p>Key features of the Mostafa Hugo Theme:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Responsive design&lt;/strong>: Adapts seamlessly to different screen sizes and devices.&lt;/li>
+&lt;li>&lt;strong>Supports various content types&lt;/strong>: Compatible with posts, pages, galleries, videos, and more.&lt;/li>
+&lt;li>&lt;strong>Multilingual support&lt;/strong>: Easily create content in multiple languages.&lt;/li>
+&lt;li>&lt;strong>Dark and modern theme&lt;/strong>: Sleek and contemporary design with dark mode support.&lt;/li>
+&lt;li>&lt;strong>Integrated with social media&lt;/strong>: Easily link and share content on social media platforms.&lt;/li>
+&lt;li>&lt;strong>Customizable Layouts&lt;/strong>: Flexible layout options to suit your needs.&lt;/li>
+&lt;/ul>
+&lt;p>For more information, visit the &lt;a href="https://github.com/mirmousaviii/mostafa-hugo-theme">GitHub repository&lt;/a>.&lt;/p></description></item><item><title>Sample Audio</title><link>https://blogs.spacetechandnature.site/audio/sample-audio/sample-audio/</link><pubDate>Sun, 25 Feb 2024 13:16:19 +0200</pubDate><guid>https://blogs.spacetechandnature.site/audio/sample-audio/sample-audio/</guid><description>&lt;p>With the audio post type you can easily integrate a Spotify, SoundCloud, TuneIn or Mixcloud player to your post.&lt;/p>
+&lt;p>If you don&amp;rsquo;t want to embed sound but use a header image you can set it with the featuredImage option in your markdown file.&lt;/p></description></item><item><title>Write code in Markdown</title><link>https://blogs.spacetechandnature.site/code/write-code/</link><pubDate>Thu, 01 Dec 2022 09:31:27 +0100</pubDate><guid>https://blogs.spacetechandnature.site/code/write-code/</guid><description>&lt;p>Writing code inside articles can be very useful for technical blogs and documentation. Here is an example of how to include code snippets in your Markdown files:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// This is a Go code block&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Hello, World!&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Sample Gallery</title><link>https://blogs.spacetechandnature.site/gallery/sample-gallery/</link><pubDate>Mon, 01 Nov 2021 18:01:26 +0100</pubDate><guid>https://blogs.spacetechandnature.site/gallery/sample-gallery/</guid><description>&lt;p>This is a sample gallery content. You can describe the images, the locations, or any other relevant information here.&lt;/p>
+&lt;p>Enjoy creating your gallery!&lt;/p></description></item></channel></rss>
