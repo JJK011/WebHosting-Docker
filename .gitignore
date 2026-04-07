@@ -4,3 +4,7 @@
 wordpress/
 mariadb/
 cloudflare/
+#
+mywebsite/.hugo_build.lock
+#public...which only has generated files
+public/
