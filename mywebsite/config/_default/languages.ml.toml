@@ -2,7 +2,7 @@ disabled = false
 languageCode = "ml"
 languageName = "മലയാളം"
 weight = 2
-title = "Blowfish (മലയാളം)"
+title = "JJK"
 
 [params]
   displayName = "ML"
@@ -17,9 +17,9 @@ title = "Blowfish (മലയാളം)"
  [params.author]
     name = "ജിജേഷ് ജയകുമാർ"
    email = "jijeshjkumar117@gmail.com"
-   image = "img/blowfish_logo.png"
+   image = "img/jay_happy_logo.png"
    imageQuality = 96
-   headline = "I'm only human"
+   headline = "ഹലോ!"
    bio = "A little bit about you"
    links = [
 #     { email = "mailto:hello@your_domain.com" },
