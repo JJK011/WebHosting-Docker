@@ -1,10 +1,18 @@
-#environment variables
+# Environment variables
 *.env
-#data storage volumes of docker containers
+
+# Data storage volumes of docker containers
 wordpress/
 mariadb/
 cloudflare/
-#
+
+# Hugo site exclusions (Subdirectory paths)
+mywebsite/public/
+mywebsite/resources/_gen/
 mywebsite/.hugo_build.lock
+
+# System bloatware
+.DS_Store
+Thumbs.db
 #public...which only has generated files
 public/
