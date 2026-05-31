@@ -1,6 +1,8 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+#languageCode = "en"
+#languageName = "English"
+locale = "en"
+label = "English"
 weight = 1
 title = "JJK"
 
@@ -20,7 +22,7 @@ title = "JJK"
    image = "img/jay_logo.png"
    imageQuality = 96
    headline = "Hello! "
-   bio = "A little bit about you"
+   bio = "An engineer exploring space, nature and stories"
    links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },

@@ -1,6 +1,8 @@
 disabled = false
-languageCode = "ml"
-languageName = "മലയാളം"
+#languageCode = "ml"
+#languageName = "മലയാളം"
+locale = "ml"
+label = "മലയാളം"
 weight = 2
 title = "JJK"
 
@@ -20,7 +22,7 @@ title = "JJK"
    image = "img/jay_happy_logo.png"
    imageQuality = 96
    headline = "ഹലോ!"
-   bio = "A little bit about you"
+   bio = "An engineer exploring space, nature and stories"
    links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
