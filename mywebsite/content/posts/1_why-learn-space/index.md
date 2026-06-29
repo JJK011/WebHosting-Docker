@@ -11,13 +11,15 @@ categories: ["Space", "Philosophy"]
 tags: ["Astronomy", "Universe", "Humanity", "Science"]
 
 featuredImage: "featured.jpg"
-featuredImageAlt: "Stars and galaxy"
+featuredImageAlt: "Earth and galaxy"
 
 showTableOfContents: false
 showReadingTime: true
 showWordCount: true
+showFeaturedImage: true
 math: false
 ---
+![Earth and Galaxy](EarthAndGalaxy.jpg "View of Milky Way galaxy from Earth")
 
 About 4.5 billion years ago, the planets of our solar system, including Earth, were formed. Life began about 3.5 billion years ago. But was the origin of life something that happened deep within Earth itself, or did a comet or asteroid carrying the seeds of life crash onto Earth by chance? That still remains a mystery.
 
@@ -30,3 +32,8 @@ How fascinating it is that a telescope can show us things that happened millions
 Space technology has benefited humanity in countless ways: environmental protection, weather forecasting, global communication, healthcare, and much more. But perhaps the most important contribution is the insight it gives us about ourselves as a species. Talking about space is a constant reminder of what humanity has already achieved and of the long journey of achievements still ahead of us.
 
 So, when the universe continues to amaze us every single moment, why shouldn’t an ordinary person study it? Space is such a vast subject that anyone can find something within it to spark their curiosity. There is truly something for everyone in “space.” By spending a little time learning about our cosmic home and understanding our place within it, the next time a great discovery is announced, we’ll all be able to celebrate it deeply in our hearts—rather than just glance at it as another newspaper headline.
+
+<p><em>
+Featured image by
+<a href="https://unsplash.com/photos/man-standing-on-brown-rock-near-body-of-water-during-night-time-1mBXWoGoI-s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Jerry Zhang</a>
+</em></p>

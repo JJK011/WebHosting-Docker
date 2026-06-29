@@ -11,13 +11,15 @@ categories: ["Personal", "Philosophy"]
 tags: ["Travel", "Self-Reflection", "Life", "Thoughts", "Personal Growth"]
 
 featuredImage: "featured.jpg"
-featuredImageAlt: "Road through mountains beneath an open sky"
+featuredImageAlt: "A blurry cycle"
 
 showTableOfContents: false
 showReadingTime: true
 showWordCount: true
 math: false
 ---
+
+![A Blurry Road](BlurryCycle.jpeg "A Blurry Road")
 
 Dreaming out of existence… and back to reality.
 
@@ -45,3 +47,6 @@ The Epilogue….
 I’m not even sure why I’m thinking this… maybe this is just what a 2 a.m. brain does to someone who usually sleeps at 11 🙂. Sooo…. as someone said in a song…”Oh, my life... You give me breath, yet leave me breathless” , Breathless can mean “oh! I saw a big mountain valley. I'm breathless! or “oh! I'm surrounded by a crowd that I don't belong to. Or maybe I'm not good enough. I should escape. I'm breathless!  
 Life is life; it's sometimes up and sometimes down, so just surf along!  
 Huh, funny life!
+
+
+<p><em>Featured image by Alex Dos Santos on pexels</em></p>
